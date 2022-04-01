@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artesaner</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/splide.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="body">
+
+<main class="main">
+    <header class="header">
+        <div class="top-bar">
+            <p class="top-bar__text">Delivery gratis desde S/. 100
+            <p>
+        </div>
+        <div class="header-container">
+            <div class="header-main">
+                <div class="header-main__logo">
+                    <a href="#" class="header-main__link-logo-container">
+                        <img src="./img/brand.svg" alt="Brand" class="header-main__link-logo"/>
+                    </a>
+                </div>
+                <div class="header-main__search">
+                    <form class="header-main__search-form" action="#">
+                        <input class="header__search-input" type="text" placeholder="¿Qué estas buscando?">
+                        <button class="header__search-button" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="header-main__card">
+                    <ul class="header-main__link-list">
+                        <li class="header-main__link-item">
+                            <a href="#" class="header-main__link"><i class="far fa-heart"></i></a>
+                        </li>
+                        <li class="header-main__link-item">
+                            <a href="#" class="header-main__link"><i class="fas fa-toggle-off"></i></a>
+                        </li>
+                        <li class="header-main__link-item">
+                            <a href="#" class="header-main__link"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="header-main__link-list link-user">
+                        <li class="header-main__link-item">
+                            <a href="#" class="header-main__link"><i class="fas fa-user-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-navbar">
+                <div class="header-navbar__category">
+                    <label for="category" class="header-category__icon">
+                        <i class="fas fa-bars"></i>
+                        <span class="header-category__title">Categorias</span>
+                        <i class="fas fa-angle-down icon-row"></i>
+                    </label>
+                    <input type="checkbox" name="category" id="category" class="header-category__checkbox" checked/>
+                    <ul class="header-category__link-list">
+                        <li class="header-category__link-item">
+                            <a href="#" class="header-category__link"><i class="fas fa-angle-right"></i> Fruits & Vegetables</a>
+                        </li>
+                        <li class="header-category__link-item">
+                            <a href="#" class="header-category__link"><i class="fas fa-angle-right"></i> Meats & Seafood</a>
+                        </li>
+                        <li class="header-category__link-item">
+                            <a href="#" class="header-category__link"><i class="fas fa-angle-right"></i> Breakfast & Dairy</a>
+                        </li>
+                        <li class="header-category__link-item">
+                            <a href="#" class="header-category__link"><i class="fas fa-angle-right"></i> Beverages</a>
+                        </li>
+                        <li class="header-category__link-item">
+                            <a href="#" class="header-category__link"><i class="fas fa-angle-right"></i> Breads & Bakery</a>
+                        </li>
+                        <li class="header-category__link-item">
+                            <a href="#" class="header-category__link"><i class="fas fa-angle-right"></i> Frozen Foods</a>
+                        </li>
+                        <li class="header-category__link-item">
+                            <a href="#" class="header-category__link"><i class="fas fa-angle-right"></i> Biscuits & Snacks</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-navbar__nav">
+                    <nav class="header-nav" id="header-nav">
+                        <div class="header-nav__container">
+                            <label for="nav" class="header-nav__nav-icon">
+                                <i class="fas fa-bars"></i>
+                            </label>
+                            <input type="checkbox" name="nav" id="nav" class="header-nav__nav-checkbox"/>
+                            <ul class="header-nav__link-list">
+                                <li class="header-nav__link-item">
+                                    <a href="#" class="header-nav__link">Nosotros</a>
+                                </li>
+                                <li class="header-nav__link-item">
+                                    <a href="#" class="header-nav__link">Productos</a>
+                                </li>
+                                <li class="header-nav__link-item">
+                                    <a href="#" class="header-nav__link">Reviews</a>
+                                </li>
+                                <li class="header-nav__link-item">
+                                    <a href="#" class="header-nav__link">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header-navbar__offer"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img class="splide__slide-item" src="./img/slider/slider-banner-1.webp" alt="s1">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="splide__slide-item" src="./img/slider/slider-banner-2.webp" alt="s2">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="splide__slide-item" src="./img/slider/slider-banner-3.webp" alt="s3">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+<script src="./js/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var splide = new Splide('.splide', {
+            type: 'loop',
+            perPage: 1,
+            autoplay: true,
+            rewind: true,
+        });
+        splide.mount();
+    });
+
+    /*const checkbox = document.getElementById('category')
+    checkbox.addEventListener('change', (event) => {
+        if (event.currentTarget.checked) {
+            alert('checked');
+        } else {
+            alert('not checked');
+        }
+    })*/
+
+</script>
+
+</body>
+</html>
